@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.282);
+    background-color: lightgray;
+
+
+}
+
+.imageCard {
+    border: 1px solid gray;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.282);
+    margin: auto;
+}
