@@ -1,6 +1,7 @@
 <H1>Pokemon Web App</H1>
+
 <div class="container">
-  <div class="box" *ngFor="let pokemon of pokemonList">
+  <div class="box" *ngFor="let pokemon of pokemonList" appBorderCard=''>
     <div class="imageCard">
       <img height="100px" src={{pokemon.picture}} />
     </div>
