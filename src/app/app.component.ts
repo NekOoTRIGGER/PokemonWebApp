@@ -7,11 +7,7 @@ import { POKEMONS } from './pokemon/mock-pokemon';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 
   pokemonList: Pokemon[] = POKEMONS;
-  ngOnInit(): void {
-    console.log(this.pokemonList[0]);
-  }
-  title = 'pokemon-app';
 }

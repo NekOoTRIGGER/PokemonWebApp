@@ -1,15 +1,3 @@
 <H1>Pokemon Web App</H1>
 
-<div class="container">
-  <div class="box" *ngFor="let pokemon of pokemonList" appBorderCard=''>
-    <div class="imageCard">
-      <img height="100px" src={{pokemon.picture}} />
-    </div>
-    <div>
-      <h4>{{pokemon.name}}</h4>
-      <p>Vie : {{pokemon.hp}}</p>
-      <p>Type : {{pokemon.types}}</p>
-      <p>CP : {{pokemon.cp}}</p>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
