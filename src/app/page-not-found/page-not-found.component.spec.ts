@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DetailPokemonComponent } from './detail-pokemon.component';
+import { PageNotFoundComponent } from './page-not-found.component';
 
-describe('DetailPokemonComponent', () => {
-  let component: DetailPokemonComponent;
-  let fixture: ComponentFixture<DetailPokemonComponent>;
+describe('PageNotFoundComponent', () => {
+  let component: PageNotFoundComponent;
+  let fixture: ComponentFixture<PageNotFoundComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DetailPokemonComponent]
+      declarations: [PageNotFoundComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DetailPokemonComponent);
+    fixture = TestBed.createComponent(PageNotFoundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
