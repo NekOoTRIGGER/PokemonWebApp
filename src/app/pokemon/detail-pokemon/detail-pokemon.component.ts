@@ -17,7 +17,9 @@ export class DetailPokemonComponent implements OnInit {
   goToPokemonList() {
     this.router.navigate(['/pokemons']);
   }
-
+  EditPokemon() {
+    this.router.navigate(['/edit/pokemon',this.pokemon?.id]);
+  }
   ngOnInit(): void {
     this.pokemonList = this.pokemonService.getPokemonList();
 
